@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings/
+*.class
+*.bak
+Thumbs.db
+definitions.fidp
