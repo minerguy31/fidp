@@ -1,52 +1,54 @@
 # FiDP
-FiDP Definitions File|FIDP|31415926|0
+FiDP Definitions File|FIDP|31 41 59 26|0
 
 # Java Class files
-JDK 1.1 Class File|CLASS|CAFEBABE|0|2D|7
-JDK 1.2 Class File|CLASS|CAFEBABE|0|2E|7
-JDK 1.3 Class File|CLASS|CAFEBABE|0|2F|7
-JDK 1.4 Class File|CLASS|CAFEBABE|0|30|7
-Java SE 5.0 Class File|CLASS|CAFEBABE|0|31|7
-Java SE 6.0 Class File|CLASS|CAFEBABE|0|32|7
-Java 7 Class File|CLASS|CAFEBABE|0|33|7
-Java 8 Class File|CLASS|CAFEBABE|0|34|7
-Java 9 Class File|CLASS|CAFEBABE|0|35|7
+JDK 1.1 Class File|CLASS|CA FE BA BE|0|2D|7
+JDK 1.2 Class File|CLASS|CA FE BA BE|0|2E|7
+JDK 1.3 Class File|CLASS|CA FE BA BE|0|2F|7
+JDK 1.4 Class File|CLASS|CA FE BA BE|0|30|7
+Java SE 5.0 Class File|CLASS|CA FE BA BE|0|31|7
+Java SE 6.0 Class File|CLASS|CA FE BA BE|0|32|7
+Java 7 Class File|CLASS|CA FE BA BE|0|33|7
+Java 8 Class File|CLASS|CA FE BA BE|0|34|7
+Java 9 Class File|CLASS|CA FE BA BE|0|35|7
 
 # Image formats
-Graphics Interchange Format (87a)|GIF|474946383761|0
-Tagged Image File Format (Little Endian)|TIF|49492A00|0
-Tagged Image File Format (Big Endian)|TIFF|4D4D002A|0
-Canon RAW Format Version 2|CR2|49492A00100000004352|0
-Kodak Cineon Image|CIN|802A5FD7|0
-SMPTE DPX image (Big Endian)|DPX|53445058|0
-SMPTE DPX image (Little Endian)|DPX|58504453|0
-Better Portable Graphics|BPG|425047FB|0
-JPEG (RAW)|JPG|FFD8FFDB|0
-JPEG (JFIF format)|JPG|FFD8FFE0|0|4A4649460001|6
-JPEG (Exif format)|JPG|FFD8FFE1|0|457869660000|6
+Graphics Interchange Format (87a)|GIF|47 49 46 38 37 61|0
+Tagged Image File Format (Little Endian)|TIF|49 49 2A 00|0
+Tagged Image File Format (Big Endian)|TIFF|4D 4D 00 2A|0
+Canon RAW Format Version 2|CR2|49 49 2A 00 10 00 00 00 43 52|0
+Kodak Cineon Image|CIN|80 2A 5F D7|0
+SMPTE DPX image (Big Endian)|DPX|53 44 50 58|0
+SMPTE DPX image (Little Endian)|DPX|58 50 44 53|0
+Better Portable Graphics|BPG|42 50 47 FB|0
+JPEG (RAW)|JPG|FF D8 FF DB|0
+JPEG (JFIF format)|JPG|FF D8 FF E0|0|4A 46 49 46 00 01|6
+JPEG (Exif format)|JPG|FF D8 FF E1|0|45 78 69 66 00 00|6
+JPEG (Spiff format)|JPG|FF D8 FF E8|0
+Samsung D500 JPEG|JPG|FF D8 FF E3|0
 
 # Document formats
-PDF Document|PDF|25504446|0
-MS Word 97-2003|DOC|D0CF11E0A1B11AE1|0
-MS Word 2007|DOCX|504B030414000600|0
+PDF Document|PDF|25 50 44 46|0
+MS Word 97-2003|DOC|D0 CF 11 E0 A1 B1 1A E1|0
+MS Word 2007|DOCX|50 4B 03 04 14 00 06 00|0
 
 # Video formats
-Audio Video Interleave Video|AVI|52494646|0|41564920|8
-OGG Container|OGG|4F676753|0
+Audio Video Interleave Video|AVI|52 49 46 46|0|41564920|8
+OGG Container|OGG|4F 67 67 53|0
 
 # Audio formats
-Waveform Audio File|WAV|52494646|0|57415645|8
-Sonic Foundry Acid Music File|AC|72696666|0
+Waveform Audio File|WAV|52 49 46 46|0|57 41 56 45|8
+Sonic Foundry Acid Music File|AC|72 69 66 66|0
 
 # Archives
-7zip Archive|7Z|377ABCAF271C|0
-PK Based Archive|ZIP|504B0304|0
-Palm Desktop Calandar Archive|DBA|BEBAFECA|0
-Palm Desktop To Do Archive|DBA|00014244|0
-Palm Desktop Calendar Archive|TDA|00014454|0
+7zip Archive|7Z|37 7A BC AF 27 1C|0
+PK Based Archive|ZIP|50 4B 03 04|0
+Palm Desktop Calandar Archive|DBA|BE BA FE CA|0
+Palm Desktop To Do Archive|DBA|00 01 42 44|0
+Palm Desktop Calendar Archive|TDA|00 01 44 54|0
 
 # Executables
-DOS MZ/Windows PE Executable|EXE|4D5A|0
+DOS MZ/Windows PE Executable|EXE|4D 5A|0
 
 # Misc/Uncategorized
 # Please move to a category if applicable

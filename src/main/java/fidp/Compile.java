@@ -52,7 +52,8 @@ public class Compile {
 				fos.write(0xFF);
 				
 				// Write signature
-				byte[] sig = hexStringToByteArray(com[j]);
+				byte[] sig = hexStringToByteArray(com[j].replace(" ", ""));
+				
 				fos.write(sig.length);
 				fos.write(sig);
 				
