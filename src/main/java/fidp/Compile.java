@@ -51,8 +51,14 @@ public class Compile {
 				// Write begin marker
 				fos.write(0xFF);
 				
-				// Write signature
-				byte[] sig = hexStringToByteArray(com[j].replace(" ", ""));
+				byte[] sig;
+				try {
+					// Write signature
+					sig = hexStringToByteArray(com[j].replace(" ", ""));
+				} catch(Exception e) {
+					System.err.println("Error at line " + line);
+					return;
+				}
 				
 				fos.write(sig.length);
 				fos.write(sig);

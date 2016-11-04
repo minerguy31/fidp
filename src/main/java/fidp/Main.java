@@ -70,7 +70,7 @@ public class Main {
 			// System.out.println(sig);
 			if(sig.matches(buf)) {
 				System.out.println(sig);
-				break;
+				// break;
 			}
 		}
 		
