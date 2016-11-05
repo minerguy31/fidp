@@ -1,95 +1,21 @@
-# FiDP
-FiDP Definitions File|FIDP|31 41 59 26|0
-
-# Java Class files
-JDK 1.1 Class File|CLASS|CA FE BA BE|0|2D|7
-JDK 1.2 Class File|CLASS|CA FE BA BE|0|2E|7
-JDK 1.3 Class File|CLASS|CA FE BA BE|0|2F|7
-JDK 1.4 Class File|CLASS|CA FE BA BE|0|30|7
-Java SE 5.0 Class File|CLASS|CA FE BA BE|0|31|7
-Java SE 6.0 Class File|CLASS|CA FE BA BE|0|32|7
-Java 7 Class File|CLASS|CA FE BA BE|0|33|7
-Java 8 Class File|CLASS|CA FE BA BE|0|34|7
-Java 9 Class File|CLASS|CA FE BA BE|0|35|7
-
-# Image formats
-Graphics Interchange Format (87a)|GIF|47 49 46 38 37 61|0
-Tagged Image File Format (Little Endian)|TIF|49 49 2A 00|0
-Tagged Image File Format (Big Endian)|TIFF|4D 4D 00 2A|0
-Canon RAW Format Version 2|CR2|49 49 2A 00 10 00 00 00 43 52|0
-Kodak Cineon Image|CIN|80 2A 5F D7|0
-SMPTE DPX image (Big Endian)|DPX|53 44 50 58|0
-SMPTE DPX image (Little Endian)|DPX|58 50 44 53|0
-Better Portable Graphics|BPG|42 50 47 FB|0
-JPEG (RAW)|JPG|FF D8 FF DB|0
-JPEG (JFIF format)|JPG|FF D8 FF E0|0|4A 46 49 46 00 01|6
-JPEG (Exif format)|JPG|FF D8 FF E1|0|45 78 69 66 00 00|6
-JPEG (Spiff format)|JPG|FF D8 FF E8|0
-Samsung D500 JPEG|JPG|FF D8 FF E3|0
-Portable Network Graphics|PNG|89 50 4E 47 0D 0A 1A 0A|0
-
-# Document formats
-PDF Document|PDF|25 50 44 46|0
-MS Word 97-2003|DOC|D0 CF 11 E0 A1 B1 1A E1|0|EC A5 C1 00|512
-MS Word 2007|DOCX|50 4B 03 04 14 00 06 00|0
-
-# Video formats
-Audio Video Interleave Video - Windows Audio Video|AVI|52 49 46 46|0|41 56 49 20 4C 49 53 54|8
-OGG Container|OGG|4F 67 67 53|0
-
-# Audio formats
-Waveform Audio File|WAV|52 49 46 46|0|57 41 56 45 66 6D 74 20|8
-Sonic Foundry Acid Music File|AC|72 69 66 66|0
-
-# Archives
-7zip Archive|7Z|37 7A BC AF 27 1C|0
-Palm Desktop Calandar Archive|DBA|BE BA FE CA|0
-Palm Desktop To Do Archive|DBA|00 01 42 44|0
-Palm Desktop Calendar Archive|TDA|00 01 44 54|0
-KWAJ (compressed) file||4B 57 41 4A 88 F0 27 D1|0
-Palm Address Book Archive|ABA|00 01 42 41|0
-cpio archive||30 37 30 37 30|0
-AIN Compressed Archive|AIN|21 12|0
-LH archive (type 1)|ARC|1A 02|0
-LH archive (type 2)|ARC|1A 03|0
-LH archive (type 3)|ARC|1A 04|0
-LH archive (type 4)|ARC|1A 08|0
-LH archive (type 5)|ARC|1A 09|0
-ARJ Compressed archive file|ARJ|60 EA|0
-bzip2 archive|BZ2|42 5A 68|0
-Install Shield compressed file|CAB|49 53 63 28|0
-Microsoft cabinet file|CAB|4D 53 43 46|0
-Crush compressed archive|CRU|43 52 55 53 48 20 76|0
-
-# Executables
-DOS MZ/Windows PE Executable|EXE|4D 5A|0
-
-# Misc/Uncategorized
-# Please move to a category if applicable
-Microsoft Access 2007|ACCDB|000100005374616E6461726420414345204442|0
-Windows Animated Cursor|ANI|52494646|0|41434F4E|8
-Blender File|BLEND|424C454E4445525F|0
-Besiege Creation File|BSG|505245464142204944530D0A|0
-Chrome Extension|CRX|43723234|0
-
-# Dump 1
-# Please categorize
 AOL parameter/info files||41 43 53 44|0
-Binary property list (plist)||62 70 6C 69 73 74|0
 BIOS details in RAM||00 14 00 00 01 02|0
+Binary property list (plist)||62 70 6C 69 73 74|0
 ELF executable||7F 45 4C 46|0
 Extended tcpdump (libpcap) capture file||A1 B2 CD 34|0
 INFO2 Windows recycle bin_1||04 00 00 00|0
 INFO2 Windows recycle bin_2||05 00 00 00|0
-Serialized java object||AC ED|0
+KWAJ (compressed) file||4B 57 41 4A 88 F0 27 D1|0
 NAV quarantined virus file||CD 20 AA AA 02 00 00 00|0
 QBASIC SZDD file||53 5A 20 88 F0 27 33 D1|0
 SMS text (SIM)||6F 3C|0
 SZDD file format||53 5A 44 44 88 F0 27 33|0
-tcpdump (libpcap) capture file||A1 B2 C3 D4|0
+Serialized java object||AC ED|0
 Tcpdump capture file||34 CD B2 A1|0
 UUencoded file||62 65 67 69 6E|0
 WinDump (winpcap) capture file||D4 C3 B2 A1|0
+cpio archive||30 37 30 37 30|0
+tcpdump (libpcap) capture file||A1 B2 C3 D4|0
 zisofs compressed file||37 E4 53 96 C9 DB D6 07|0
 Lotus 1-2-3 (v9)|123|00 00 1A 00 05 10 04|0
 Windows virtual device drivers|386|4D 5A|0
@@ -98,21 +24,33 @@ Windows virtual device drivers|386|4D 5A|0
 MPEG-4 video files|3GP5|00 00 00 18 66 74 79 70|0
 4X Movie video|4XM|52 49 46 46|0
 7-Zip compressed file|7Z|37 7A BC AF 27 1C|0
+7zip Archive|7Z|37 7A BC AF 27 1C|0
+Palm Address Book Archive|ABA|00 01 42 41|0
 ABD / QSD Quicken data file|ABD|51 57 20 56 65 72 2E 20|0
 AOL address book index|ABI|41 4F 4C 49 4E 44 45 58|0
 AOL address book|ABY|41 4F 4C 44 42|0
+Sonic Foundry Acid Music File|AC|72 69 66 66|0
+Microsoft Access 2007|ACCDB|000100005374616E6461726420414345204442|0
 MS audio compression manager driver|ACM|4D 5A|0
 MS Agent Character file|ACS|C3 AB CD AB|0
-CaseWare Working Papers|AC_|D0 CF 11 E0 A1 B1 1A E1|0
+CaseWare Working Papers|AC_|D0 CF 11 E0 A1 B1 1A E1 00|0
 Antenna data file|AD|52 45 56 4E 55 4D 3A 2C|0
 Access project file|ADP|D0 CF 11 E0 A1 B1 1A E1|0
 Approach index file|ADX|03 00 00 00 41 50 50 52|0
 Dreamcast audio|ADX|80 00 00 20 03 12 04|0
 Audio Interchange File|AIFF|46 4F 52 4D 00|0
+AIN Compressed Archive|AIN|21 12|0
 Adaptive Multi-Rate ACELP Codec (GSM)|AMR|23 21 41 4D 52|0
+Windows Animated Cursor|ANI|52494646|0|41434F4E|8
 Acrobat plug-in|API|4D 5A 90 00 03 00 00 00|0
 Lotus/IBM Approach 97 file|APR|D0 CF 11 E0 A1 B1 1A E1|0
 FreeArc compressed file|ARC|41 72 43 01|0
+LH archive (type 1)|ARC|1A 02|0
+LH archive (type 2)|ARC|1A 03|0
+LH archive (type 3)|ARC|1A 04|0
+LH archive (type 4)|ARC|1A 08|0
+LH archive (type 5)|ARC|1A 09|0
+ARJ Compressed archive file|ARJ|60 EA|0
 AOL history/typed URL files|ARL|D4 2A|0
 Windows Media Audio/Video File|ASF|30 26 B2 75 8E 66 CF 11|0
 Underground Audio|AST|53 43 48 6C|0
@@ -120,13 +58,20 @@ Advanced Stream Redirector|ASX|3C|0
 Audacity file|AU|64 6E 73 2E|0
 NeXT/Sun Microsystems audio file|AU|2E 73 6E 64|0
 AOL history/typed URL files|AUT|D4 2A|0
+Audio Video Interleave Video - Windows Audio Video|AVI|52 49 46 46|0|41 56 49 20 4C 49 53 54|8
 MS Answer Wizard|AW|8A 01 09 00 00 00 E1 08|0
 DirectShow filter|AX|4D 5A 90 00 03 00 00 00|0
 Library cache file|AX|4D 5A|0
 AOL and AIM buddy list|BAG|41 4F 4C 20 46 65 65 64|0
 MS Publisher|BDR|58 54|0
 Speedtouch router firmware|BIN|42 4C 49 32 32 33 51|0
+Blender File|BLEND|424C454E4445525F|0
 Bitmap image|BMP|42 4D|0
+Better Portable Graphics|BPG|42 50 47 FB|0
+Besiege Creation File|BSG|505245464142204944530D0A|0
+bzip2 archive|BZ2|42 5A 68|0
+Install Shield compressed file|CAB|49 53 63 28|0
+Microsoft cabinet file|CAB|4D 53 43 46|0
 CALS raster bitmap|CAL|73 72 63 64 6F 63 69 64|0
 SuperCalc worksheet|CAL|53 75 70 65 72 43 61 6C|0
 Windows calendar|CAL|B5 A2 B0 B3 B3 B0 A5 B5|0
@@ -143,6 +88,16 @@ Sony Compressed Voice File|CDR|4D 53 5F 56 4F 49 43 45|0
 Flight Simulator Aircraft Configuration|CFG|5B 66 6C 74 73 69 6D 2E|0
 MS Compiled HTML Help File|CHI|49 54 53 46|0
 MS Compiled HTML Help File|CHM|49 54 53 46|0
+Kodak Cineon Image|CIN|80 2A 5F D7|0
+JDK 1.1 Class File|CLASS|CA FE BA BE|0|2D|7
+JDK 1.2 Class File|CLASS|CA FE BA BE|0|2E|7
+JDK 1.3 Class File|CLASS|CA FE BA BE|0|2F|7
+JDK 1.4 Class File|CLASS|CA FE BA BE|0|30|7
+Java 7 Class File|CLASS|CA FE BA BE|0|33|7
+Java 8 Class File|CLASS|CA FE BA BE|0|34|7
+Java 9 Class File|CLASS|CA FE BA BE|0|35|7
+Java SE 5.0 Class File|CLASS|CA FE BA BE|0|31|7
+Java SE 6.0 Class File|CLASS|CA FE BA BE|0|32|7
 COM+ Catalog|CLB|43 4F 4D 2B|0
 Corel Binary metafile|CLB|43 4D 58 31|0
 Corel Presentation Exchange metadata|CMX|52 49 46 46|0
@@ -156,27 +111,30 @@ Corel color palette|CPL|DC DC|0
 Corel Photopaint file_1|CPT|43 50 54 37 46 49 4C 45|0
 Corel Photopaint file_2|CPT|43 50 54 46 49 4C 45|0
 Microsoft Code Page Translation file|CPX|5B 57 69 6E 64 6F 77 73|0
+Canon RAW Format Version 2|CR2|49 49 2A 00 10 00 00 00 43 52|0
+Crush compressed archive|CRU|43 52 55 53 48 20 76|0
 Canon RAW file|CRW|49 49 1A 00 00 00 48 45|0
+Chrome Extension|CRX|43723234|0
 Photoshop Custom Shape|CSH|63 75 73 68 00 00 00 02|0
 WhereIsIt Catalog|CTF|43 61 74 61 6C 6F 67 20|0
 Visual Basic User-defined Control file|CTL|56 45 52 53 49 4F 4E 20|0
 Customization files|CUIX|50 4B 03 04|0
 Windows cursor image|CUR|00 00 02 00|0
-Video CD MPEG movie|DAT|52 49 46 46|0
+AVG6 Integrity database|DAT|41 56 47 36 5F 49 6E 74|0
 Access Data FTK evidence|DAT|A9 0D 00 00 00 00 00 00|0
 Allegro Generic Packfile (compressed)|DAT|73 6C 68 21|0
 Allegro Generic Packfile (uncompressed)|DAT|73 6C 68 2E|0
-AVG6 Integrity database|DAT|41 56 47 36 5F 49 6E 74|0
-MapInfo Native Data Format|DAT|03|0
 EasyRecovery Saved State file|DAT|45 52 46 53 53 41 56 45|0
 IE History file|DAT|43 6C 69 65 6E 74 20 55|0
 Inno Setup Uninstall Log|DAT|49 6E 6E 6F 20 53 65 74|0
+MapInfo Native Data Format|DAT|03|0
 Norton Disk Doctor undo file|DAT|50 4E 43 49 55 4E 44 4F|0
 PestPatrol data/scan strings|DAT|50 45 53 54|0
 Runtime Software disk image|DAT|1A 52 54 53 20 43 4F 4D|0
 Shareaza (P2P) thumbnail|DAT|52 41 5A 41 54 44 42 31|0
 TomTom traffic data|DAT|4E 41 56 54 52 41 46 46|0
 UFO Capture map file|DAT|55 46 4F 4F 72 62 69 74|0
+Video CD MPEG movie|DAT|52 49 46 46|0
 Walkman MP3 file|DAT|57 4D 4D 50|0
 Win9x registry hive|DAT|43 52 45 47|0
 WinNT registry file|DAT|72 65 67 66|0
@@ -186,6 +144,8 @@ Palm Zire photo database|DB|44 42 46 48|0
 SQLite database|DB|53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00|0
 Windows Thumbnail Cache (Thumbs.db)|DB|D0 CF 11 E0 A1 B1 1A E1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3E 00 03 00 FE FF 09 00 06|0|FD FF FF FF|512|04 00 00 00|524
 Palm DateBook Archive|DBA|00 01 42 44|0
+Palm Desktop Calandar Archive|DBA|BE BA FE CA|0
+Palm Desktop To Do Archive|DBA|00 01 42 44|0
 Skype user data file|DBB|6C 33 33 6C|0
 Psion Series 3 Database|DBF|4F 50 4C 44 61 74 61 62|0
 Outlook Express email folder|DBX|CF AD 12 FE|0
@@ -199,10 +159,14 @@ Windows dump file|DMP|4D 44 4D 50 93 A7|0
 Windows memory dump|DMP|50 41 47 45 44 55|0
 Amiga DiskMasher compressed archive|DMS|44 4D 53 21|0
 DeskMate Document|DOC|0D 44 4F 43|0
+MS Word 97-2003|DOC|D0 CF 11 E0 A1 B1 1A E1|0|EC A5 C1 00|512
 Perfect Office document|DOC|CF 11 E0 A1 B1 1A E1 00|0
 Word 2.0 file|DOC|DB A5 2D 00|0
-MS Office Open XML Format Document|DOCX|50 4B 03 04|0
 MS Office 2007 documents|DOCX|50 4B 03 04 14 00 06 00|0
+MS Office Open XML Format Document|DOCX|50 4B 03 04|0
+MS Word 2007|DOCX|50 4B 03 04 14 00 06 00|0
+SMPTE DPX image (Big Endian)|DPX|53 44 50 58|0
+SMPTE DPX image (Little Endian)|DPX|58 50 44 53|0
 Windows/DOS executable file|DRV|4D 5A|0
 Micrografx vector graphic file|DRW|01 FF 02 04 03 02|0
 Micrografx Designer graphic|DS4|52 49 46 46|0
@@ -221,15 +185,17 @@ Logical File Evidence Format|E01|4C 56 46 09 0D 0A FF 00|0
 MS Exchange configuration file|ECF|5B 47 65 6E 65 72 61 6C|0
 eFax file|EFX|DC FE|0
 Exchange email|EML|58 2D|0
-Generic email|EML|52 65 74 75 72 6E 2D 50|0
 Generic email|EML|46 72 6F 6D|0
+Generic email|EML|52 65 74 75 72 6E 2D 50|0
 EndNote Library File|ENL|40 40 40 20 00 00 40 40 40 40|0
 Adobe encapsulated PostScript|EPS|C5 D0 D3 C6|0
 Encapsulated PostScript file|EPS|25 21 50 53 2D 41 64 6F|0
 WinPharoah capture file|ETH|1A 35 01 00|0
 Windows Event Viewer file|EVT|30 00 00 00 4C 66 4C 65|0
 Windows Vista event log|EVTX|45 6C 66 46 69 6C 65 00|0
+DOS MZ/Windows PE Executable|EXE|4D 5A|0
 PDF file|FDF|25 50 44 46|0
+FiDP Definitions File|FIDP|31 41 59 26|0
 Free Lossless Audio Codec file|FLAC|66 4C 61 43 00 00 00 22|0
 FLIC animation|FLI|00 11|0
 Audition graphic filter|FLT|4D 5A 90 00 03 00 00 00|0
@@ -243,6 +209,7 @@ Symantex Ghost image file|GHS|FE EF|0
 Windows Help file|GID|3F 5F 03 00|0
 Windows help file|GID|4C 4E 02 00|0
 GIF file|GIF|47 49 46 38|0
+Graphics Interchange Format (87a)|GIF|47 49 46 38 37 61|0
 GPG public keyring|GPG|99|0
 Windows Program Manager group file|GRP|50 4D 43 43|0
 Show Partner graphics file|GX2|47 58 32|0
@@ -269,10 +236,15 @@ GNU Info Reader file|INFO|54 68 69 73 20 69 73 20|0
 ZoomBrowser Image Index|INFO|7A 62 65 78|0
 ISO-9660 CD Disc Image|ISO|43 44 30 30 31|0
 RealPlayer video file (V11+)|IVR|2E 52 45 43|0
-Java archive_1|JAR|50 4B 03 04|0
-Jar archive|JAR|5F 27 A8 89|0
 JARCS compressed archive|JAR|4A 41 52 43 53 00|0
+Jar archive|JAR|5F 27 A8 89|0
+Java archive_1|JAR|50 4B 03 04|0
 Java archive_2|JAR|50 4B 03 04 14 00 08 00|0
+JPEG (Exif format)|JPG|FF D8 FF E1|0|45 78 69 66 00 00|6
+JPEG (JFIF format)|JPG|FF D8 FF E0|0|4A 46 49 46 00 01|6
+JPEG (RAW)|JPG|FF D8 FF DB|0
+JPEG (Spiff format)|JPG|FF D8 FF E8|0
+Samsung D500 JPEG|JPG|FF D8 FF E3|0
 Sprint Music Store audio|KOZ|49 44 33 03 00 00 00|0
 KWord document|KWD|50 4B 03 04|0
 Jeppesen FliteLog file|LBK|C8 00 79 00|0
@@ -292,18 +264,18 @@ Matroska stream file|MKV|1A 45 DF A3 93 42 82 88|0
 Skype localization data file|MLS|4D 4C 53 57|0
 Yamaha Synthetic music Mobile Application Format|MMF|4D 4D 4D 44 00 00|0
 Microsoft Money file|MNY|00 01 00 00 4D 53 49 53 41 4D 20 44 61 74 61 62 61 73 65|0
-MSinfo file|MOF|FF FE 23 00 6C 00 69 00|0
-QuickTime movie|MOV|6D 6F 6F 76|0
+MSinfo file|MOF|FF FE 23 00 6C 00 69 00 6E 00 65 00 20 00 31 00|0
 QuickTime movie|MOV|66 72 65 65|0
 QuickTime movie|MOV|6D 64 61 74|0
-QuickTime movie|MOV|77 69 64 65|0
+QuickTime movie|MOV|6D 6F 6F 76|0
 QuickTime movie|MOV|70 6E 6F 74|0
 QuickTime movie|MOV|73 6B 69 70|0
+QuickTime movie|MOV|77 69 64 65|0
 Monochrome Picture TIFF bitmap|MP|0C ED|0
 DVD video file|MPG|00 00 01 BA|0
 MPEG video file|MPG|00 00 01 B3|0
-Microsoft Common Console Document|MSC|3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72 73 69 6F 6E 3D 22|0
 MMC Snap-in Control file|MSC|3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72|0
+Microsoft Common Console Document|MSC|3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72 73 69 6F 6E 3D 22|0
 Microsoft Installer package|MSI|D0 CF 11 E0 A1 B1 1A E1|0
 Sony Compressed Voice File|MSV|4D 53 5F 56 4F 49 43 45|0
 Minitab data file|MTW|D0 CF 11 E0 A1 B1 1A E1|0
@@ -318,6 +290,7 @@ MS COFF relocatable object code|OBJ|4C 01|0
 Relocatable object code|OBJ|80|0
 ActiveX OLE Custom Control|OCX|4D 5A|0
 OpenDocument template|ODP|50 4B 03 04|0
+OGG Container|OGG|4F 67 67 53|0
 OLE object library|OLB|4D 5A|0
 MS OneNote note|ONE|E4 52 5C 7B 8C D8 A7 4D AE B1 53 78 D0 29 96 D3|0
 Developer Studio File Options file|OPT|D0 CF 11 E0 A1 B1 1A E1|0|FD FF FF FF 20|512
@@ -331,10 +304,11 @@ PAX password protected bitmap|PAX|50 41 58|0
 Visual C PreCompiled header|PCH|56 43 50 43 48 30|0
 ZSOFT Paintbrush file|PCX|0A 02 01 01|0
 BGBlitz position database file|PDB|AC ED 00 05 73 72 00 12|0
-Merriam-Webster Pocket Dictionary|PDB|4D 2D 57 20 50 6F 63 6B|0
 MS C++ debugging symbols file|PDB|4D 69 63 72 6F 73 6F 66 74 20 43 2F 43 2B 2B 20|0
+Merriam-Webster Pocket Dictionary|PDB|4D 2D 57 20 50 6F 63 6B|0
 PalmOS SuperMemo|PDB|73 6D 5F|0
 PowerBASIC Debugger Symbols|PDB|73 7A 65 7A|0
+PDF Document|PDF|25 50 44 46|0
 PDF file|PDF|25 50 44 46|0
 Windows prefetch file|PF|11 00 00 00 53 43 43 41|0
 AOL personal file cabinet|PFC|41 4F 4C 56 4D 31 30 30|0
@@ -342,9 +316,10 @@ PGP disk image|PGD|50 47 50 64 4D 41 49 4E|0
 Portable Graymap Graphic|PGM|50 35 0A|0
 Windows/DOS executable file|PIF|4D 5A|0
 PGP public keyring|PKR|99 01|0
-Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|A0 46 1D F0|512
+Portable Network Graphics|PNG|89 50 4E 47 0D 0A 1A 0A|0
 Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|00 6E 1E F0|512
 Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|0F 00 E8 03|512
+Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|A0 46 1D F0|512
 Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|FD FF FF FF|512|00|517
 Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|FD FF FF FF|512|02|517
 Powerpoint Packaged Presentation|PPZ|4D 53 43 46|0
@@ -369,8 +344,8 @@ RealAudio file|RA|2E 52 4D 46 00 00 00 12|0
 RealAudio streaming media|RA|2E 72 61 FD 00|0
 RealMedia metafile|RAM|72 74 73 70 3A 2F 2F|0
 WinRAR compressed archive|RAR|52 61 72 21 1A 07 00|0
-Windows Registry file|REG|FF FE|0
 WinNT Registry/Registry Undo files|REG|52 45 47 45 44 49 54|0
+Windows Registry file|REG|FF FE|0
 Silicon Graphics RGB Bitmap|RGB|01 DA 01 01 00 03|0
 RealMedia streaming media|RM|2E 52 4D 46|0
 Resource Interchange File Format|RMI|52 49 46 46|0|52 4D 49 44 64 61 74 61|8
@@ -386,8 +361,8 @@ Screensaver file|SCR|4D 5A|0
 SmartDraw Drawing file|SDR|53 4D 41 52 54 44 52 57|0
 Harvard Graphics presentation file|SH3|48 48 47 42 31|0
 Win Server 2003 printer spool file|SHD|68 49 00 00|0
-Win9x printer spool file|SHD|4B 49 00 00|0
 Win2000/XP printer spool file|SHD|67 49 00 00|0
+Win9x printer spool file|SHD|4B 49 00 00|0
 WinNT printer spool file|SHD|66 49 00 00|0
 Harvard Graphics presentation|SHW|53 48 4F 57|0
 StuffIt archive|SIT|53 49 54 21 00|0
@@ -398,10 +373,10 @@ Surfplan kite project file|SLE|3A 56 45 52 53 49 4F 4E|0
 Visual Studio .NET file|SLN|4D 69 63 72 6F 73 6F 66 74 20 56 69 73 75 61 6C|0
 Netscape Communicator v4 mail|SNM|00 1E 84 90 00 00 00 00|0
 MS Access Snapshot Viewer file|SNP|4D 53 43 46|0
-Visual Studio Solution User Options file|SUO|D0 CF 11 E0 A1 B1 1A E1|0|FD FF FF FF|512|00 00|518
 Windows printer spool file|SPL|00 00 01 00|0
 SPSS output file|SPO|D0 CF 11 E0 A1 B1 1A E1|0
 WinNT Registry Undo files|SUD|52 45 47 45 44 49 54|0
+Visual Studio Solution User Options file|SUO|D0 CF 11 E0 A1 B1 1A E1|0|FD FF FF FF|512|00 00|518
 Visual Studio Solution|SUO|FD FF FF FF 04|512
 Shockwave Flash file|SWF|43 57 53|0
 Shockwave Flash player|SWF|46 57 53|0
@@ -409,9 +384,9 @@ StarOffice spreadsheet|SXC|50 4B 03 04|0
 OpenOffice document|SXD|50 4B 03 04|0
 OpenOffice document|SXI|50 4B 03 04|0
 OpenOffice document|SXW|50 4B 03 04|0
-Windows/DOS executable file|SYS|4D 5A|0
 DOS system driver|SYS|FF FF FF FF|0
 Windows keyboard driver file|SYS|FF 4B 45 59 42 20 20 20|0
+Windows/DOS executable file|SYS|4D 5A|0
 Harvard Graphics symbol graphic|SYW|41 4D 59 4F|0
 Tape Archive (TAR) file|TAR|75 73 74 61 72|0
 bzip2 compressed archive|TAR.BZ2|42 5A 68|0
@@ -419,7 +394,10 @@ Compressed tape archive|TAR.Z|1F 9D 90|0
 Compressed tape archive|TAR.Z|1F A0|0
 bzip2 compressed archive|TB2|42 5A 68|0
 bzip2 compressed archive|TBZ2|42 5A 68|0
+Palm Desktop Calendar Archive|TDA|00 01 44 54|0
 Acronis True Image|TIB|B4 6E 68 44|0
+Tagged Image File Format (Little Endian)|TIF|49 49 2A 00|0
+Tagged Image File Format (Big Endian)|TIFF|4D 4D 00 2A|0
 OLE/SPSS/Visual C++ library file|TLB|4D 53 46 54 02 00 01 00|0
 Novell LANalyzer capture file|TR1|01 10|0
 UFA archive|UFA|55 46 41 C6 D2 C1|0
@@ -434,8 +412,9 @@ VMware 4 Virtual Disk|VMDK|4B 44 4D|0
 DVD video file|VOB|00 00 01 BA|0
 Visio file|VSD|D0 CF 11 E0 A1 B1 1A E1|0
 Windows virtual device drivers|VXD|4D 5A|0
-Outlook address file|WAB|9C CB CB 8D 13 75 D2 11|0
 Outlook Express address book (Win95)|WAB|81 32 84 C1 85 05 D0 11|0
+Outlook address file|WAB|9C CB CB 8D 13 75 D2 11|0
+Waveform Audio File|WAV|52 49 46 46|0|57 41 56 45 66 6D 74 20|8
 QuattroPro spreadsheet|WB2|00 00 02 00|0
 Quatro Pro for Windows 7.0|WB3|3E 00 03 00 FE FF 09 00 06|0
 Google WebP image file|WEBP|52 49 46 46|0|57 45 42 50|8
@@ -465,19 +444,19 @@ WordStar for Windows file|WS2|57 53 32 30 30 30|0
 BizTalk XML-Data Reduced Schema|XDR|3C|0
 Excel spreadsheet|XLS|09 08 10 00 00 06 05 00|0|09 08 10 00 00 06 05 00|512
 Excel spreadsheet|XLS|09 08 10 00 00 06 05 00|0|FD FF FF FF|512
-MS Office Open XML Format Document|XLSX|50 4B 03 04 14 00 06 00|0
 MS Office 2007 documents|XLSX|50 4B 03 04 14 00 06 00|0
+MS Office Open XML Format Document|XLSX|50 4B 03 04 14 00 06 00|0
 User Interface Language|XML|3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E|0
 Mozilla Browser Archive|XPI|50 4B 03 04|0
 XML paper specification file|XPS|50 4B 03 04|0
-eXact Packager Models|XPT|50 4B 03 04|0
 XPCOM libraries|XPT|58 50 43 4F 4D 0A 54 79|0
+eXact Packager Models|XPT|50 4B 03 04|0
 ZoneAlam data file|ZAP|4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF|0
-PKZIP archive|ZIP|50 4B 03 04|0
 PKLITE archive|ZIP|50 4B 4C 49 54 45|0
+PKSFX self-extracting archive|ZIP|50 4B 53 70 58|0
+PKZIP archive|ZIP|50 4B 03 04|0
 PKZIP archive|ZIP|50 4B 05 06|0
 PKZIP archive|ZIP|50 4B 07 08|0
-PKSFX self-extracting archive|ZIP|50 4B 53 70 58|0
 WinZip compressed archive|ZIP|57 69 6E 5A 69 70|0
 ZLock Pro encrypted ZIP|ZIP|50 4B 03 04 14 00 01 00|0
 ZOO compressed archive|ZOO|5A 4F 4F 20|0
