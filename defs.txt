@@ -3,8 +3,8 @@ BIOS details in RAM||00 14 00 00 01 02|0
 Binary property list (plist)||62 70 6C 69 73 74|0
 ELF executable||7F 45 4C 46|0
 Extended tcpdump (libpcap) capture file||A1 B2 CD 34|0
-INFO2 Windows recycle bin_1||04 00 00 00|0
-INFO2 Windows recycle bin_2||05 00 00 00|0
+Windows recycle bin||04 00 00 00|0
+Windows recycle bin||05 00 00 00|0
 KWAJ (compressed) file||4B 57 41 4A 88 F0 27 D1|0
 NAV quarantined virus file||CD 20 AA AA 02 00 00 00|0
 QBASIC SZDD file||53 5A 20 88 F0 27 33 D1|0
@@ -108,8 +108,8 @@ Sietronics CPI XRD document|CPI|53 49 45 54 52 4F 4E 49|0
 Windows international code page|CPI|FF 46 4F 4E 54|0
 Control panel application|CPL|4D 5A|0
 Corel color palette|CPL|DC DC|0
-Corel Photopaint file_1|CPT|43 50 54 37 46 49 4C 45|0
-Corel Photopaint file_2|CPT|43 50 54 46 49 4C 45|0
+Corel Photopaint file|CPT|43 50 54 37 46 49 4C 45|0
+Corel Photopaint file|CPT|43 50 54 46 49 4C 45|0
 Microsoft Code Page Translation file|CPX|5B 57 69 6E 64 6F 77 73|0
 Canon RAW Format Version 2|CR2|49 49 2A 00 10 00 00 00 43 52|0
 Crush compressed archive|CRU|43 52 55 53 48 20 76|0
@@ -237,9 +237,7 @@ ZoomBrowser Image Index|INFO|7A 62 65 78|0
 ISO-9660 CD Disc Image|ISO|43 44 30 30 31|0
 RealPlayer video file (V11+)|IVR|2E 52 45 43|0
 JARCS compressed archive|JAR|4A 41 52 43 53 00|0
-Jar archive|JAR|5F 27 A8 89|0
-Java archive_1|JAR|50 4B 03 04|0
-Java archive_2|JAR|50 4B 03 04 14 00 08 00|0
+Java archive|JAR|50 4B 03 04 14 00 08 00|0
 JPEG (Exif format)|JPG|FF D8 FF E1|0|45 78 69 66 00 00|6
 JPEG (JFIF format)|JPG|FF D8 FF E0|0|4A 46 49 46 00 01|6
 JPEG (RAW)|JPG|FF D8 FF DB|0
