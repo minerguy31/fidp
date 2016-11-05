@@ -26,10 +26,11 @@ JPEG (JFIF format)|JPG|FF D8 FF E0|0|4A 46 49 46 00 01|6
 JPEG (Exif format)|JPG|FF D8 FF E1|0|45 78 69 66 00 00|6
 JPEG (Spiff format)|JPG|FF D8 FF E8|0
 Samsung D500 JPEG|JPG|FF D8 FF E3|0
+Portable Network Graphics|PNG|89 50 4E 47 0D 0A 1A 0A|0
 
 # Document formats
 PDF Document|PDF|25 50 44 46|0
-MS Word 97-2003|DOC|D0 CF 11 E0 A1 B1 1A E1|0
+MS Word 97-2003|DOC|D0 CF 11 E0 A1 B1 1A E1|0|EC A5 C1 00|512
 MS Word 2007|DOCX|50 4B 03 04 14 00 06 00|0
 
 # Video formats
@@ -198,13 +199,11 @@ OS X image file|DMG|78|0
 Windows dump file|DMP|4D 44 4D 50 93 A7|0
 Windows memory dump|DMP|50 41 47 45 44 55|0
 Amiga DiskMasher compressed archive|DMS|44 4D 53 21|0
-Microsoft Office document|DOC|D0 CF 11 E0 A1 B1 1A E1|0
 DeskMate Document|DOC|0D 44 4F 43|0
 Perfect Office document|DOC|CF 11 E0 A1 B1 1A E1 00|0
 Word 2.0 file|DOC|DB A5 2D 00|0
 MS Office Open XML Format Document|DOCX|50 4B 03 04|0
 MS Office 2007 documents|DOCX|50 4B 03 04 14 00 06 00|0
-Microsoft Office document|DOT|D0 CF 11 E0 A1 B1 1A E1|0
 Windows/DOS executable file|DRV|4D 5A|0
 Micrografx vector graphic file|DRW|01 FF 02 04 03 02|0
 Micrografx Designer graphic|DS4|52 49 46 46|0
@@ -322,8 +321,7 @@ ActiveX OLE Custom Control|OCX|4D 5A|0
 OpenDocument template|ODP|50 4B 03 04|0
 OLE object library|OLB|4D 5A|0
 MS OneNote note|ONE|E4 52 5C 7B 8C D8 A7 4D|0
-Developer Studio File Options file|OPT|D0 CF 11 E0 A1 B1 1A E1|0
-Developer Studio subheader|OPT|FD FF FF FF 20|0
+Developer Studio File Options file|OPT|D0 CF 11 E0 A1 B1 1A E1|0|FD FF FF FF 20|512
 AOL personal file cabinet|ORG|41 4F 4C 56 4D 31 30 30|0
 OpenDocument template|OTT|50 4B 03 04|0
 Intel PROset Wireless Profile|P10|64 00 00 00|0
@@ -345,7 +343,9 @@ PGP disk image|PGD|50 47 50 64 4D 41 49 4E|0
 Portable Graymap Graphic|PGM|50 35 0A|0
 Windows/DOS executable file|PIF|4D 5A|0
 PGP public keyring|PKR|99 01|0
-Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0
+Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|A0 46 1D F0|512
+Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|00 6E 1E F0|512
+Microsoft Office Powerpoint Document|PPT|D0 CF 11 E0 A1 B1 1A E1|0|0F 00 E8 03|512
 Powerpoint Packaged Presentation|PPZ|4D 53 43 46|0
 Palmpilot resource file|PRC|42 4F 4F 4B 4D 4F 42 49|0
 PathWay Map file|PRC|74 42 4D 50 4B 6E 57 72|0
@@ -401,7 +401,7 @@ Visual Studio Solution User Options file|SOU|D0 CF 11 E0 A1 B1 1A E1|0
 Windows printer spool file|SPL|00 00 01 00|0
 SPSS output file|SPO|D0 CF 11 E0 A1 B1 1A E1|0
 WinNT Registry Undo files|SUD|52 45 47 45 44 49 54|0
-Visual Studio Solution subheader|SUO|FD FF FF FF 04|0
+Visual Studio Solution|SUO|FD FF FF FF 04|512
 Shockwave Flash file|SWF|43 57 53|0
 Shockwave Flash player|SWF|46 57 53|0
 StarOffice spreadsheet|SXC|50 4B 03 04|0
@@ -462,10 +462,9 @@ MS Write file|WRI|BE 00 00 00 AB|0
 WordStar Version 5.0/6.0 document|WS|1D 7D|0
 WordStar for Windows file|WS2|57 53 32 30 30 30|0
 BizTalk XML-Data Reduced Schema|XDR|3C|0
-Microsoft Office document|XLA|D0 CF 11 E0 A1 B1 1A E1|0
-Microsoft Office document|XLS|D0 CF 11 E0 A1 B1 1A E1|0
-Excel spreadsheet|XLS|09 08 10 00 00 06 05 00|0
-MS Office Open XML Format Document|XLSX|50 4B 03 04|0
+Excel spreadsheet|XLS|09 08 10 00 00 06 05 00|0|09 08 10 00 00 06 05 00|512
+Excel spreadsheet|XLS|09 08 10 00 00 06 05 00|0|FD FF FF FF|512
+MS Office Open XML Format Document|XLSX|50 4B 03 04 14 00 06 00|0
 MS Office 2007 documents|XLSX|50 4B 03 04 14 00 06 00|0
 User Interface Language|XML|3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E|0
 Mozilla Browser Archive|XPI|50 4B 03 04|0
