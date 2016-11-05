@@ -45,7 +45,7 @@ public class CompilerNew {
 					return;
 				}
 				bytes[j / 2 - 1] = sig;
-				offsets[j / 2 - 1] = Byte.parseByte(com[j + 1]);
+				offsets[j / 2 - 1] = Integer.parseInt(com[j + 1]);
 			}
 			
 
