@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
  * Example: `Java 8 Class File|CLASS|CAFEBABE|0|34|7`
  *
  */
+@Deprecated
 public class Compile {
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(new File("defs.txt"));

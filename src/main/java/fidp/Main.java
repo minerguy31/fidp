@@ -3,61 +3,40 @@ package fidp;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.ObjectInputStream;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Main {
-	public static void main(String[] args) throws IOException {
-		File f = new File("C:/Users/minerguy31/Downloads/audiocheck.net_sin_1000Hz_-3dBFS_3s.wav");
+	public static void main(String[] args) throws Exception {
+		if(args.length != 1) {
+			System.err.println("Expected 1 argument, got " + args.length);
+			return;
+		}
 		
-		// Signature s = new Signature("Java Class File", "CLASS", new byte[] {(byte)0xCA, (byte)0xFE, (byte)0xBA, (byte)0xBE}, 0);
+		File f = new File(args[0]);
 		
-		Set<Signature> sigs = new HashSet<Signature>();
+		if(!f.exists()) {
+			System.err.println("Input file " + args[0] + " not found!");
+		}
 		
 		File defs = new File("definitions.fidp");
 		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(defs));
 
-		if(bis.read() != 0x31) throw new Error("Invalid definitions.fidp");
-		if(bis.read() != 0x41) throw new Error("Invalid definitions.fidp");
-		if(bis.read() != 0x59) throw new Error("Invalid definitions.fidp");
-		if(bis.read() != 0x26) throw new Error("Invalid definitions.fidp");
+		byte[] fidpsig = new byte[] {0x31, 0x41, 0x59, 0x26};
 		
-		while(bis.read() == 0xFF) {
-			// Read name
-			int len = bis.read();
-			byte[] namebuf = new byte[len];
-			bis.read(namebuf);
-			String name = new String(namebuf);
-			
-			// Read extension
-			len = bis.read();
-			byte[] extbuf = new byte[len];
-			bis.read(extbuf);
-			String ext = new String(extbuf);
-
-			ArrayList<byte[]> signatures = new ArrayList<byte[]>();
-			ArrayList<Integer> offsets = new ArrayList<Integer>();
-			
-			while(bis.read() == 0xFF) {
-				// Read signature
-				len = bis.read();
-				byte[] sig = new byte[len];
-				bis.read(sig);
-				
-				// Read offset
-				int offset = bis.read();
-				offsets.add(offset);
-				signatures.add(sig);
+		// Check signature
+		for(byte b : fidpsig) {
+			if(bis.read() != b) {
+				bis.close();
+				return;
 			}
-			
-			// Add to list
-			sigs.add(new Signature(name, ext, signatures, offsets));
 		}
 		
+		ObjectInputStream ois = new ObjectInputStream(bis);
+		
+		Signature[][] sigs = (Signature[][]) ois.readObject();
+		
+		ois.close();
 		bis.close();
 		
 		FileInputStream fis = new FileInputStream(f);
@@ -66,12 +45,11 @@ public class Main {
 		fis.close();
 		buf = Arrays.copyOfRange(buf, 0, i);
 		
-		for(Signature sig : sigs) {
-			// System.out.println(sig);
-			if(sig.matches(buf)) {
+		int firstbyte = buf[0];
+		
+		for(Signature sig : sigs[firstbyte]) {
+			if(sig.matches(buf))
 				System.out.println(sig);
-				// break;
-			}
 		}
 		
 	}

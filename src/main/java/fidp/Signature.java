@@ -3,11 +3,12 @@ package fidp;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Signature {
-	public Signature(String name, String extension, ArrayList<byte[]> sequence, ArrayList<Integer> offset) {
+public class Signature implements Serializable {
+	public Signature(String name, String extension, byte[][] sequence, int[] offset) {
 		this.name = name;
 		this.sequence = sequence;
 		this.extension = extension;
@@ -16,8 +17,8 @@ public class Signature {
 	
 	private String name;
 	private String extension;
-	private ArrayList<byte[]> sequence;
-	private ArrayList<Integer> offset;
+	private byte[][] sequence;
+	private int[] offset;
 	
 	@Override
 	public String toString() { 
@@ -25,9 +26,10 @@ public class Signature {
 	}
 	
 	public boolean matches(byte[] fn) throws IOException {
-		for(int i = 0; i < sequence.size(); i++) {
-			byte[] seq = sequence.get(i);
-			int off = offset.get(i);
+		for(int i = 0; i < sequence.length; i++) {
+			byte[] seq = sequence[i];
+			int off = offset[i];
+			
 			for(int j = 0; j < seq.length; j++) {
 				if(seq[j] != fn[j + off])
 					return false;
